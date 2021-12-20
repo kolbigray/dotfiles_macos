@@ -6,7 +6,6 @@
 
 - link:
     ~/.zshrc:
-    ~/.gitconfig:
     ~/.vimrc:
     ~/.vim: 
     ~/.oh-my-zsh:
@@ -15,13 +14,14 @@
     ~/.gitkraken:
     ~/.jupyter:
     ~/.npm:
+    ~/.bash_profile:
+
+
+
+
+
+#- create:
     
 
-
-
-- create:
-    - ~/downloads
-    - ~/.vim/undo-history
-
-#- shell:
-#  - [git submodule update --init --recursive, Installing submodules]
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
