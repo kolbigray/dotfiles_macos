@@ -7,7 +7,15 @@
 - link:
     ~/.zshrc:
     ~/.gitconfig:
-	
+    ~/.vimrc:
+    ~/.vim: 
+    ~/.oh-my-zsh:
+    ~/.viminfo:
+    ~/.p10k.zsh:
+    ~/.gitkraken:
+    ~/.jupyter:
+    ~/.npm:
+    
 
 
 

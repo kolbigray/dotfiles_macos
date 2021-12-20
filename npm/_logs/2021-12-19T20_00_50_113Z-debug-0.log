@@ -1,0 +1,1013 @@
+0 verbose cli [
+0 verbose cli   '/opt/homebrew/Cellar/node/17.2.0/bin/node',
+0 verbose cli   '/opt/homebrew/bin/npm',
+0 verbose cli   'install',
+0 verbose cli   '--global',
+0 verbose cli   'trash-cli'
+0 verbose cli ]
+1 info using npm@8.3.0
+2 info using node@v17.2.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/opt/homebrew/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 0ms
+10 timing config:load:file:/Users/kolbigray/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/opt/homebrew/etc/npmrc Completed in 1ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 0ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 5ms
+18 timing npm:load:configload Completed in 5ms
+19 timing npm:load:setTitle Completed in 2ms
+20 timing config:load:flatten Completed in 1ms
+21 timing npm:load:display Completed in 2ms
+22 verbose logfile /Users/kolbigray/.npm/_logs/2021-12-19T20_00_50_113Z-debug-0.log
+23 timing npm:load:logFile Completed in 2ms
+24 timing npm:load:timers Completed in 0ms
+25 timing npm:load:configScope Completed in 0ms
+26 timing npm:load Completed in 11ms
+27 timing arborist:ctor Completed in 1ms
+28 timing idealTree:init Completed in 2ms
+29 timing idealTree:userRequests Completed in 1ms
+30 silly idealTree buildDeps
+31 silly fetch manifest trash-cli@*
+32 http fetch GET 200 https://registry.npmjs.org/trash-cli 542ms (cache miss)
+33 silly placeDep ROOT trash-cli@5.0.0 OK for:  want: *
+34 silly fetch manifest meow@^10.1.2
+35 silly fetch manifest trash@^8.0.0
+36 http fetch GET 200 https://registry.npmjs.org/trash 9ms (cache hit)
+37 http fetch GET 200 https://registry.npmjs.org/meow 53ms (cache miss)
+38 timing idealTree:#root Completed in 603ms
+39 silly placeDep node_modules/trash-cli meow@10.1.2 OK for: trash-cli@5.0.0 want: ^10.1.2
+40 silly placeDep node_modules/trash-cli trash@8.1.0 OK for: trash-cli@5.0.0 want: ^8.0.0
+41 silly fetch manifest @types/minimist@^1.2.2
+42 silly fetch manifest camelcase-keys@^7.0.0
+43 silly fetch manifest decamelize@^5.0.0
+44 silly fetch manifest decamelize-keys@^1.1.0
+45 silly fetch manifest hard-rejection@^2.1.0
+46 silly fetch manifest minimist-options@4.1.0
+47 silly fetch manifest normalize-package-data@^3.0.2
+48 silly fetch manifest read-pkg-up@^8.0.0
+49 silly fetch manifest redent@^4.0.0
+50 silly fetch manifest trim-newlines@^4.0.2
+51 silly fetch manifest type-fest@^1.2.2
+52 silly fetch manifest yargs-parser@^20.2.9
+53 silly fetch manifest @sindresorhus/chunkify@^0.2.0
+54 silly fetch manifest @stroncium/procfs@^1.2.1
+55 silly fetch manifest globby@^7.1.1
+56 silly fetch manifest is-path-inside@^4.0.0
+57 silly fetch manifest move-file@^3.0.0
+58 silly fetch manifest p-map@^5.1.0
+59 silly fetch manifest uuid@^8.3.2
+60 silly fetch manifest xdg-trashdir@^3.1.0
+61 http fetch GET 200 https://registry.npmjs.org/globby 25ms (cache hit)
+62 http fetch GET 200 https://registry.npmjs.org/@stroncium%2fprocfs 27ms (cache hit)
+63 http fetch GET 200 https://registry.npmjs.org/is-path-inside 27ms (cache hit)
+64 http fetch GET 200 https://registry.npmjs.org/move-file 26ms (cache hit)
+65 http fetch GET 200 https://registry.npmjs.org/p-map 27ms (cache hit)
+66 http fetch GET 200 https://registry.npmjs.org/@sindresorhus%2fchunkify 28ms (cache hit)
+67 http fetch GET 200 https://registry.npmjs.org/xdg-trashdir 26ms (cache hit)
+68 http fetch GET 200 https://registry.npmjs.org/uuid 28ms (cache hit)
+69 http fetch GET 200 https://registry.npmjs.org/@types%2fminimist 53ms (cache miss)
+70 http fetch GET 200 https://registry.npmjs.org/camelcase-keys 80ms (cache miss)
+71 http fetch GET 200 https://registry.npmjs.org/read-pkg-up 85ms (cache miss)
+72 http fetch GET 200 https://registry.npmjs.org/type-fest 85ms (cache miss)
+73 http fetch GET 200 https://registry.npmjs.org/hard-rejection 100ms (cache miss)
+74 http fetch GET 200 https://registry.npmjs.org/normalize-package-data 99ms (cache miss)
+75 http fetch GET 200 https://registry.npmjs.org/yargs-parser 99ms (cache miss)
+76 http fetch GET 200 https://registry.npmjs.org/minimist-options 102ms (cache miss)
+77 http fetch GET 200 https://registry.npmjs.org/decamelize-keys 103ms (cache miss)
+78 http fetch GET 200 https://registry.npmjs.org/redent 104ms (cache miss)
+79 http fetch GET 200 https://registry.npmjs.org/decamelize 108ms (cache miss)
+80 http fetch GET 200 https://registry.npmjs.org/trim-newlines 518ms (cache miss)
+81 timing idealTree:node_modules/trash-cli Completed in 527ms
+82 silly placeDep node_modules/trash-cli @types/minimist@1.2.2 OK for: meow@10.1.2 want: ^1.2.2
+83 silly placeDep node_modules/trash-cli camelcase-keys@7.0.1 OK for: meow@10.1.2 want: ^7.0.0
+84 silly placeDep node_modules/trash-cli decamelize@5.0.1 OK for: meow@10.1.2 want: ^5.0.0
+85 silly placeDep node_modules/trash-cli decamelize-keys@1.1.0 OK for: meow@10.1.2 want: ^1.1.0
+86 silly placeDep node_modules/trash-cli hard-rejection@2.1.0 OK for: meow@10.1.2 want: ^2.1.0
+87 silly placeDep node_modules/trash-cli minimist-options@4.1.0 OK for: meow@10.1.2 want: 4.1.0
+88 silly placeDep node_modules/trash-cli normalize-package-data@3.0.3 OK for: meow@10.1.2 want: ^3.0.2
+89 silly placeDep node_modules/trash-cli read-pkg-up@8.0.0 OK for: meow@10.1.2 want: ^8.0.0
+90 silly placeDep node_modules/trash-cli redent@4.0.0 OK for: meow@10.1.2 want: ^4.0.0
+91 silly placeDep node_modules/trash-cli trim-newlines@4.0.2 OK for: meow@10.1.2 want: ^4.0.2
+92 silly placeDep node_modules/trash-cli type-fest@1.4.0 OK for: meow@10.1.2 want: ^1.2.2
+93 silly placeDep node_modules/trash-cli yargs-parser@20.2.9 OK for: meow@10.1.2 want: ^20.2.9
+94 silly fetch manifest camelcase@^6.2.0
+95 silly fetch manifest map-obj@^4.1.0
+96 silly fetch manifest quick-lru@^5.1.1
+97 silly fetch manifest decamelize@^1.1.0
+98 silly fetch manifest map-obj@^1.0.0
+99 silly fetch manifest arrify@^1.0.1
+100 silly fetch manifest is-plain-obj@^1.1.0
+101 silly fetch manifest kind-of@^6.0.3
+102 silly fetch manifest hosted-git-info@^4.0.1
+103 silly fetch manifest is-core-module@^2.5.0
+104 silly fetch manifest semver@^7.3.4
+105 silly fetch manifest validate-npm-package-license@^3.0.1
+106 silly fetch manifest find-up@^5.0.0
+107 silly fetch manifest read-pkg@^6.0.0
+108 silly fetch manifest indent-string@^5.0.0
+109 silly fetch manifest strip-indent@^4.0.0
+110 http fetch GET 200 https://registry.npmjs.org/indent-string 13ms (cache hit)
+111 http fetch GET 200 https://registry.npmjs.org/find-up 40ms (cache miss)
+112 http fetch GET 200 https://registry.npmjs.org/is-core-module 42ms (cache miss)
+113 http fetch GET 200 https://registry.npmjs.org/camelcase 55ms (cache miss)
+114 http fetch GET 200 https://registry.npmjs.org/semver 49ms (cache miss)
+115 http fetch GET 200 https://registry.npmjs.org/read-pkg 51ms (cache miss)
+116 http fetch GET 200 https://registry.npmjs.org/hosted-git-info 54ms (cache miss)
+117 http fetch GET 200 https://registry.npmjs.org/validate-npm-package-license 54ms (cache miss)
+118 http fetch GET 200 https://registry.npmjs.org/is-plain-obj 58ms (cache miss)
+119 http fetch GET 200 https://registry.npmjs.org/kind-of 59ms (cache miss)
+120 http fetch GET 200 https://registry.npmjs.org/quick-lru 73ms (cache miss)
+121 http fetch GET 200 https://registry.npmjs.org/strip-indent 86ms (cache miss)
+122 http fetch GET 200 https://registry.npmjs.org/map-obj 410ms (cache miss)
+123 http fetch GET 200 https://registry.npmjs.org/arrify 415ms (cache miss)
+124 timing idealTree:node_modules/trash-cli/node_modules/meow Completed in 436ms
+125 timing idealTree:node_modules/trash-cli/node_modules/@types/minimist Completed in 0ms
+126 silly placeDep node_modules/trash-cli camelcase@6.2.1 OK for: camelcase-keys@7.0.1 want: ^6.2.0
+127 silly placeDep node_modules/trash-cli map-obj@4.3.0 OK for: camelcase-keys@7.0.1 want: ^4.1.0
+128 silly placeDep node_modules/trash-cli quick-lru@5.1.1 OK for: camelcase-keys@7.0.1 want: ^5.1.1
+129 timing idealTree:node_modules/trash-cli/node_modules/camelcase-keys Completed in 3ms
+130 timing idealTree:node_modules/trash-cli/node_modules/camelcase Completed in 0ms
+131 timing idealTree:node_modules/trash-cli/node_modules/decamelize Completed in 0ms
+132 silly placeDep node_modules/trash-cli/node_modules/decamelize-keys decamelize@1.2.0 OK for: decamelize-keys@1.1.0 want: ^1.1.0
+133 silly placeDep node_modules/trash-cli/node_modules/decamelize-keys map-obj@1.0.1 OK for: decamelize-keys@1.1.0 want: ^1.0.0
+134 timing idealTree:node_modules/trash-cli/node_modules/decamelize-keys Completed in 3ms
+135 timing idealTree:node_modules/trash-cli/node_modules/hard-rejection Completed in 0ms
+136 timing idealTree:node_modules/trash-cli/node_modules/map-obj Completed in 0ms
+137 silly placeDep node_modules/trash-cli arrify@1.0.1 OK for: minimist-options@4.1.0 want: ^1.0.1
+138 silly placeDep node_modules/trash-cli is-plain-obj@1.1.0 OK for: minimist-options@4.1.0 want: ^1.1.0
+139 silly placeDep node_modules/trash-cli kind-of@6.0.3 OK for: minimist-options@4.1.0 want: ^6.0.3
+140 timing idealTree:node_modules/trash-cli/node_modules/minimist-options Completed in 1ms
+141 timing idealTree:node_modules/trash-cli/node_modules/arrify Completed in 0ms
+142 timing idealTree:node_modules/trash-cli/node_modules/is-plain-obj Completed in 0ms
+143 timing idealTree:node_modules/trash-cli/node_modules/kind-of Completed in 0ms
+144 silly placeDep node_modules/trash-cli hosted-git-info@4.0.2 OK for: normalize-package-data@3.0.3 want: ^4.0.1
+145 silly placeDep node_modules/trash-cli is-core-module@2.8.0 OK for: normalize-package-data@3.0.3 want: ^2.5.0
+146 silly placeDep node_modules/trash-cli semver@7.3.5 OK for: normalize-package-data@3.0.3 want: ^7.3.4
+147 silly placeDep node_modules/trash-cli validate-npm-package-license@3.0.4 OK for: normalize-package-data@3.0.3 want: ^3.0.1
+148 silly fetch manifest lru-cache@^6.0.0
+149 silly fetch manifest has@^1.0.3
+150 silly fetch manifest spdx-correct@^3.0.0
+151 silly fetch manifest spdx-expression-parse@^3.0.0
+152 http fetch GET 200 https://registry.npmjs.org/has 45ms (cache miss)
+153 http fetch GET 200 https://registry.npmjs.org/spdx-expression-parse 45ms (cache miss)
+154 http fetch GET 200 https://registry.npmjs.org/spdx-correct 46ms (cache miss)
+155 http fetch GET 200 https://registry.npmjs.org/lru-cache 48ms (cache miss)
+156 timing idealTree:node_modules/trash-cli/node_modules/normalize-package-data Completed in 51ms
+157 silly placeDep node_modules/trash-cli lru-cache@6.0.0 OK for: hosted-git-info@4.0.2 want: ^6.0.0
+158 silly fetch manifest yallist@^4.0.0
+159 http fetch GET 200 https://registry.npmjs.org/yallist 44ms (cache miss)
+160 timing idealTree:node_modules/trash-cli/node_modules/hosted-git-info Completed in 45ms
+161 silly placeDep node_modules/trash-cli has@1.0.3 OK for: is-core-module@2.8.0 want: ^1.0.3
+162 silly fetch manifest function-bind@^1.1.1
+163 http fetch GET 200 https://registry.npmjs.org/function-bind 45ms (cache miss)
+164 timing idealTree:node_modules/trash-cli/node_modules/is-core-module Completed in 47ms
+165 silly placeDep node_modules/trash-cli function-bind@1.1.1 OK for: has@1.0.3 want: ^1.1.1
+166 timing idealTree:node_modules/trash-cli/node_modules/has Completed in 0ms
+167 timing idealTree:node_modules/trash-cli/node_modules/function-bind Completed in 0ms
+168 silly placeDep node_modules/trash-cli yallist@4.0.0 OK for: lru-cache@6.0.0 want: ^4.0.0
+169 timing idealTree:node_modules/trash-cli/node_modules/lru-cache Completed in 1ms
+170 timing idealTree:node_modules/trash-cli/node_modules/quick-lru Completed in 0ms
+171 silly placeDep node_modules/trash-cli find-up@5.0.0 OK for: read-pkg-up@8.0.0 want: ^5.0.0
+172 silly placeDep node_modules/trash-cli read-pkg@6.0.0 OK for: read-pkg-up@8.0.0 want: ^6.0.0
+173 silly fetch manifest locate-path@^6.0.0
+174 silly fetch manifest path-exists@^4.0.0
+175 silly fetch manifest @types/normalize-package-data@^2.4.0
+176 silly fetch manifest parse-json@^5.2.0
+177 http fetch GET 200 https://registry.npmjs.org/path-exists 4ms (cache hit)
+178 http fetch GET 200 https://registry.npmjs.org/parse-json 40ms (cache miss)
+179 http fetch GET 200 https://registry.npmjs.org/locate-path 43ms (cache miss)
+180 http fetch GET 200 https://registry.npmjs.org/@types%2fnormalize-package-data 52ms (cache miss)
+181 timing idealTree:node_modules/trash-cli/node_modules/read-pkg-up Completed in 54ms
+182 silly placeDep node_modules/trash-cli locate-path@6.0.0 OK for: find-up@5.0.0 want: ^6.0.0
+183 silly placeDep node_modules/trash-cli path-exists@4.0.0 OK for: find-up@5.0.0 want: ^4.0.0
+184 silly fetch manifest p-locate@^5.0.0
+185 http fetch GET 200 https://registry.npmjs.org/p-locate 39ms (cache miss)
+186 timing idealTree:node_modules/trash-cli/node_modules/find-up Completed in 41ms
+187 silly placeDep node_modules/trash-cli p-locate@5.0.0 OK for: locate-path@6.0.0 want: ^5.0.0
+188 silly fetch manifest p-limit@^3.0.2
+189 http fetch GET 200 https://registry.npmjs.org/p-limit 31ms (cache miss)
+190 timing idealTree:node_modules/trash-cli/node_modules/locate-path Completed in 33ms
+191 silly placeDep node_modules/trash-cli p-limit@3.1.0 OK for: p-locate@5.0.0 want: ^3.0.2
+192 silly fetch manifest yocto-queue@^0.1.0
+193 http fetch GET 200 https://registry.npmjs.org/yocto-queue 28ms (cache miss)
+194 timing idealTree:node_modules/trash-cli/node_modules/p-locate Completed in 29ms
+195 silly placeDep node_modules/trash-cli yocto-queue@0.1.0 OK for: p-limit@3.1.0 want: ^0.1.0
+196 timing idealTree:node_modules/trash-cli/node_modules/p-limit Completed in 1ms
+197 timing idealTree:node_modules/trash-cli/node_modules/path-exists Completed in 0ms
+198 silly placeDep node_modules/trash-cli @types/normalize-package-data@2.4.1 OK for: read-pkg@6.0.0 want: ^2.4.0
+199 silly placeDep node_modules/trash-cli parse-json@5.2.0 OK for: read-pkg@6.0.0 want: ^5.2.0
+200 silly fetch manifest @babel/code-frame@^7.0.0
+201 silly fetch manifest error-ex@^1.3.1
+202 silly fetch manifest json-parse-even-better-errors@^2.3.0
+203 silly fetch manifest lines-and-columns@^1.1.6
+204 http fetch GET 200 https://registry.npmjs.org/@babel%2fcode-frame 38ms (cache miss)
+205 http fetch GET 200 https://registry.npmjs.org/error-ex 43ms (cache miss)
+206 http fetch GET 200 https://registry.npmjs.org/json-parse-even-better-errors 52ms (cache miss)
+207 http fetch GET 200 https://registry.npmjs.org/lines-and-columns 59ms (cache miss)
+208 timing idealTree:node_modules/trash-cli/node_modules/read-pkg Completed in 65ms
+209 timing idealTree:node_modules/trash-cli/node_modules/@types/normalize-package-data Completed in 0ms
+210 silly placeDep node_modules/trash-cli @babel/code-frame@7.16.0 OK for: parse-json@5.2.0 want: ^7.0.0
+211 silly placeDep node_modules/trash-cli error-ex@1.3.2 OK for: parse-json@5.2.0 want: ^1.3.1
+212 silly placeDep node_modules/trash-cli json-parse-even-better-errors@2.3.1 OK for: parse-json@5.2.0 want: ^2.3.0
+213 silly placeDep node_modules/trash-cli lines-and-columns@1.2.4 OK for: parse-json@5.2.0 want: ^1.1.6
+214 silly fetch manifest @babel/highlight@^7.16.0
+215 silly fetch manifest is-arrayish@^0.2.1
+216 http fetch GET 200 https://registry.npmjs.org/@babel%2fhighlight 46ms (cache miss)
+217 http fetch GET 200 https://registry.npmjs.org/is-arrayish 48ms (cache miss)
+218 timing idealTree:node_modules/trash-cli/node_modules/parse-json Completed in 52ms
+219 silly placeDep node_modules/trash-cli @babel/highlight@7.16.0 OK for: @babel/code-frame@7.16.0 want: ^7.16.0
+220 silly fetch manifest @babel/helper-validator-identifier@^7.15.7
+221 silly fetch manifest chalk@^2.0.0
+222 silly fetch manifest js-tokens@^4.0.0
+223 http fetch GET 200 https://registry.npmjs.org/chalk 43ms (cache miss)
+224 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-validator-identifier 51ms (cache miss)
+225 http fetch GET 200 https://registry.npmjs.org/js-tokens 60ms (cache miss)
+226 timing idealTree:node_modules/trash-cli/node_modules/@babel/code-frame Completed in 62ms
+227 silly placeDep node_modules/trash-cli @babel/helper-validator-identifier@7.15.7 OK for: @babel/highlight@7.16.0 want: ^7.15.7
+228 silly placeDep node_modules/trash-cli chalk@2.4.2 OK for: @babel/highlight@7.16.0 want: ^2.0.0
+229 silly placeDep node_modules/trash-cli js-tokens@4.0.0 OK for: @babel/highlight@7.16.0 want: ^4.0.0
+230 silly fetch manifest ansi-styles@^3.2.1
+231 silly fetch manifest escape-string-regexp@^1.0.5
+232 silly fetch manifest supports-color@^5.3.0
+233 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp 2ms (cache hit)
+234 http fetch GET 200 https://registry.npmjs.org/ansi-styles 35ms (cache miss)
+235 http fetch GET 200 https://registry.npmjs.org/supports-color 38ms (cache miss)
+236 timing idealTree:node_modules/trash-cli/node_modules/@babel/highlight Completed in 41ms
+237 timing idealTree:node_modules/trash-cli/node_modules/@babel/helper-validator-identifier Completed in 0ms
+238 silly placeDep node_modules/trash-cli ansi-styles@3.2.1 OK for: chalk@2.4.2 want: ^3.2.1
+239 silly placeDep node_modules/trash-cli escape-string-regexp@1.0.5 OK for: chalk@2.4.2 want: ^1.0.5
+240 silly placeDep node_modules/trash-cli supports-color@5.5.0 OK for: chalk@2.4.2 want: ^5.3.0
+241 silly fetch manifest color-convert@^1.9.0
+242 silly fetch manifest has-flag@^3.0.0
+243 http fetch GET 200 https://registry.npmjs.org/color-convert 31ms (cache miss)
+244 http fetch GET 200 https://registry.npmjs.org/has-flag 36ms (cache miss)
+245 timing idealTree:node_modules/trash-cli/node_modules/chalk Completed in 38ms
+246 silly placeDep node_modules/trash-cli color-convert@1.9.3 OK for: ansi-styles@3.2.1 want: ^1.9.0
+247 silly fetch manifest color-name@1.1.3
+248 http fetch GET 200 https://registry.npmjs.org/color-name 56ms (cache miss)
+249 timing idealTree:node_modules/trash-cli/node_modules/ansi-styles Completed in 58ms
+250 silly placeDep node_modules/trash-cli color-name@1.1.3 OK for: color-convert@1.9.3 want: 1.1.3
+251 timing idealTree:node_modules/trash-cli/node_modules/color-convert Completed in 1ms
+252 timing idealTree:node_modules/trash-cli/node_modules/color-name Completed in 0ms
+253 silly placeDep node_modules/trash-cli is-arrayish@0.2.1 OK for: error-ex@1.3.2 want: ^0.2.1
+254 timing idealTree:node_modules/trash-cli/node_modules/error-ex Completed in 0ms
+255 timing idealTree:node_modules/trash-cli/node_modules/escape-string-regexp Completed in 0ms
+256 timing idealTree:node_modules/trash-cli/node_modules/is-arrayish Completed in 0ms
+257 timing idealTree:node_modules/trash-cli/node_modules/js-tokens Completed in 0ms
+258 timing idealTree:node_modules/trash-cli/node_modules/json-parse-even-better-errors Completed in 0ms
+259 timing idealTree:node_modules/trash-cli/node_modules/lines-and-columns Completed in 0ms
+260 silly placeDep node_modules/trash-cli indent-string@5.0.0 OK for: redent@4.0.0 want: ^5.0.0
+261 silly placeDep node_modules/trash-cli strip-indent@4.0.0 OK for: redent@4.0.0 want: ^4.0.0
+262 silly fetch manifest min-indent@^1.0.1
+263 http fetch GET 200 https://registry.npmjs.org/min-indent 27ms (cache miss)
+264 timing idealTree:node_modules/trash-cli/node_modules/redent Completed in 27ms
+265 timing idealTree:node_modules/trash-cli/node_modules/indent-string Completed in 0ms
+266 timing idealTree:node_modules/trash-cli/node_modules/semver Completed in 0ms
+267 silly placeDep node_modules/trash-cli min-indent@1.0.1 OK for: strip-indent@4.0.0 want: ^1.0.1
+268 timing idealTree:node_modules/trash-cli/node_modules/strip-indent Completed in 0ms
+269 timing idealTree:node_modules/trash-cli/node_modules/min-indent Completed in 0ms
+270 silly placeDep node_modules/trash-cli has-flag@3.0.0 OK for: supports-color@5.5.0 want: ^3.0.0
+271 timing idealTree:node_modules/trash-cli/node_modules/supports-color Completed in 0ms
+272 timing idealTree:node_modules/trash-cli/node_modules/has-flag Completed in 0ms
+273 silly placeDep node_modules/trash-cli @sindresorhus/chunkify@0.2.0 OK for: trash@8.1.0 want: ^0.2.0
+274 silly placeDep node_modules/trash-cli @stroncium/procfs@1.2.1 OK for: trash@8.1.0 want: ^1.2.1
+275 silly placeDep node_modules/trash-cli globby@7.1.1 OK for: trash@8.1.0 want: ^7.1.1
+276 silly placeDep node_modules/trash-cli is-path-inside@4.0.0 OK for: trash@8.1.0 want: ^4.0.0
+277 silly placeDep node_modules/trash-cli move-file@3.0.0 OK for: trash@8.1.0 want: ^3.0.0
+278 silly placeDep node_modules/trash-cli p-map@5.3.0 OK for: trash@8.1.0 want: ^5.1.0
+279 silly placeDep node_modules/trash-cli uuid@8.3.2 OK for: trash@8.1.0 want: ^8.3.2
+280 silly placeDep node_modules/trash-cli xdg-trashdir@3.1.0 OK for: trash@8.1.0 want: ^3.1.0
+281 silly fetch manifest array-union@^1.0.1
+282 silly fetch manifest dir-glob@^2.0.0
+283 silly fetch manifest glob@^7.1.2
+284 silly fetch manifest ignore@^3.3.5
+285 silly fetch manifest pify@^3.0.0
+286 silly fetch manifest slash@^1.0.0
+287 silly fetch manifest path-exists@^5.0.0
+288 silly fetch manifest aggregate-error@^4.0.0
+289 silly fetch manifest @sindresorhus/df@^3.1.1
+290 silly fetch manifest mount-point@^3.0.0
+291 silly fetch manifest user-home@^2.0.0
+292 silly fetch manifest xdg-basedir@^4.0.0
+293 http fetch GET 200 https://registry.npmjs.org/array-union 11ms (cache hit)
+294 http fetch GET 200 https://registry.npmjs.org/dir-glob 12ms (cache hit)
+295 http fetch GET 200 https://registry.npmjs.org/@sindresorhus%2fdf 12ms (cache hit)
+296 http fetch GET 200 https://registry.npmjs.org/pify 13ms (cache hit)
+297 http fetch GET 200 https://registry.npmjs.org/user-home 13ms (cache hit)
+298 http fetch GET 200 https://registry.npmjs.org/glob 17ms (cache hit)
+299 http fetch GET 200 https://registry.npmjs.org/aggregate-error 17ms (cache hit)
+300 http fetch GET 200 https://registry.npmjs.org/mount-point 17ms (cache hit)
+301 http fetch GET 200 https://registry.npmjs.org/slash 19ms (cache hit)
+302 http fetch GET 200 https://registry.npmjs.org/xdg-basedir 21ms (cache hit)
+303 http fetch GET 200 https://registry.npmjs.org/ignore 22ms (cache hit)
+304 timing idealTree:node_modules/trash-cli/node_modules/trash Completed in 26ms
+305 timing idealTree:node_modules/trash-cli/node_modules/@sindresorhus/chunkify Completed in 0ms
+306 timing idealTree:node_modules/trash-cli/node_modules/@stroncium/procfs Completed in 0ms
+307 silly placeDep node_modules/trash-cli array-union@1.0.2 OK for: globby@7.1.1 want: ^1.0.1
+308 silly placeDep node_modules/trash-cli dir-glob@2.2.2 OK for: globby@7.1.1 want: ^2.0.0
+309 silly placeDep node_modules/trash-cli glob@7.2.0 OK for: globby@7.1.1 want: ^7.1.2
+310 silly placeDep node_modules/trash-cli ignore@3.3.10 OK for: globby@7.1.1 want: ^3.3.5
+311 silly placeDep node_modules/trash-cli pify@3.0.0 OK for: globby@7.1.1 want: ^3.0.0
+312 silly placeDep node_modules/trash-cli slash@1.0.0 OK for: globby@7.1.1 want: ^1.0.0
+313 silly fetch manifest array-uniq@^1.0.1
+314 silly fetch manifest path-type@^3.0.0
+315 silly fetch manifest fs.realpath@^1.0.0
+316 silly fetch manifest inflight@^1.0.4
+317 silly fetch manifest inherits@2
+318 silly fetch manifest minimatch@^3.0.4
+319 silly fetch manifest once@^1.3.0
+320 silly fetch manifest path-is-absolute@^1.0.0
+321 http fetch GET 200 https://registry.npmjs.org/array-uniq 12ms (cache hit)
+322 http fetch GET 200 https://registry.npmjs.org/fs.realpath 12ms (cache hit)
+323 http fetch GET 200 https://registry.npmjs.org/path-type 12ms (cache hit)
+324 http fetch GET 200 https://registry.npmjs.org/inflight 12ms (cache hit)
+325 http fetch GET 200 https://registry.npmjs.org/once 11ms (cache hit)
+326 http fetch GET 200 https://registry.npmjs.org/path-is-absolute 10ms (cache hit)
+327 http fetch GET 200 https://registry.npmjs.org/minimatch 12ms (cache hit)
+328 http fetch GET 200 https://registry.npmjs.org/inherits 13ms (cache hit)
+329 timing idealTree:node_modules/trash-cli/node_modules/globby Completed in 19ms
+330 silly placeDep node_modules/trash-cli array-uniq@1.0.3 OK for: array-union@1.0.2 want: ^1.0.1
+331 timing idealTree:node_modules/trash-cli/node_modules/array-union Completed in 1ms
+332 timing idealTree:node_modules/trash-cli/node_modules/array-uniq Completed in 0ms
+333 silly placeDep node_modules/trash-cli path-type@3.0.0 OK for: dir-glob@2.2.2 want: ^3.0.0
+334 timing idealTree:node_modules/trash-cli/node_modules/dir-glob Completed in 0ms
+335 silly placeDep node_modules/trash-cli fs.realpath@1.0.0 OK for: glob@7.2.0 want: ^1.0.0
+336 silly placeDep node_modules/trash-cli inflight@1.0.6 OK for: glob@7.2.0 want: ^1.0.4
+337 silly placeDep node_modules/trash-cli inherits@2.0.4 OK for: glob@7.2.0 want: 2
+338 silly placeDep node_modules/trash-cli minimatch@3.0.4 OK for: glob@7.2.0 want: ^3.0.4
+339 silly placeDep node_modules/trash-cli once@1.4.0 OK for: glob@7.2.0 want: ^1.3.0
+340 silly placeDep node_modules/trash-cli path-is-absolute@1.0.1 OK for: glob@7.2.0 want: ^1.0.0
+341 silly fetch manifest wrappy@1
+342 silly fetch manifest brace-expansion@^1.1.7
+343 http fetch GET 200 https://registry.npmjs.org/wrappy 2ms (cache hit)
+344 http fetch GET 200 https://registry.npmjs.org/brace-expansion 2ms (cache hit)
+345 timing idealTree:node_modules/trash-cli/node_modules/glob Completed in 4ms
+346 timing idealTree:node_modules/trash-cli/node_modules/fs.realpath Completed in 1ms
+347 timing idealTree:node_modules/trash-cli/node_modules/ignore Completed in 0ms
+348 silly placeDep node_modules/trash-cli wrappy@1.0.2 OK for: inflight@1.0.6 want: 1
+349 timing idealTree:node_modules/trash-cli/node_modules/inflight Completed in 0ms
+350 timing idealTree:node_modules/trash-cli/node_modules/inherits Completed in 0ms
+351 timing idealTree:node_modules/trash-cli/node_modules/is-path-inside Completed in 0ms
+352 silly placeDep node_modules/trash-cli brace-expansion@1.1.11 OK for: minimatch@3.0.4 want: ^1.1.7
+353 silly fetch manifest balanced-match@^1.0.0
+354 silly fetch manifest concat-map@0.0.1
+355 http fetch GET 200 https://registry.npmjs.org/balanced-match 2ms (cache hit)
+356 http fetch GET 200 https://registry.npmjs.org/concat-map 1ms (cache hit)
+357 timing idealTree:node_modules/trash-cli/node_modules/minimatch Completed in 3ms
+358 silly placeDep node_modules/trash-cli balanced-match@1.0.2 OK for: brace-expansion@1.1.11 want: ^1.0.0
+359 silly placeDep node_modules/trash-cli concat-map@0.0.1 OK for: brace-expansion@1.1.11 want: 0.0.1
+360 timing idealTree:node_modules/trash-cli/node_modules/brace-expansion Completed in 0ms
+361 timing idealTree:node_modules/trash-cli/node_modules/balanced-match Completed in 0ms
+362 timing idealTree:node_modules/trash-cli/node_modules/concat-map Completed in 0ms
+363 silly placeDep node_modules/trash-cli/node_modules/move-file path-exists@5.0.0 OK for: move-file@3.0.0 want: ^5.0.0
+364 timing idealTree:node_modules/trash-cli/node_modules/move-file Completed in 1ms
+365 timing idealTree:node_modules/trash-cli/node_modules/once Completed in 0ms
+366 silly placeDep node_modules/trash-cli aggregate-error@4.0.0 OK for: p-map@5.3.0 want: ^4.0.0
+367 silly fetch manifest clean-stack@^4.0.0
+368 http fetch GET 200 https://registry.npmjs.org/clean-stack 2ms (cache hit)
+369 timing idealTree:node_modules/trash-cli/node_modules/p-map Completed in 2ms
+370 silly placeDep node_modules/trash-cli clean-stack@4.1.0 OK for: aggregate-error@4.0.0 want: ^4.0.0
+371 silly fetch manifest escape-string-regexp@5.0.0
+372 timing idealTree:node_modules/trash-cli/node_modules/aggregate-error Completed in 1ms
+373 silly placeDep node_modules/trash-cli/node_modules/clean-stack escape-string-regexp@5.0.0 OK for: clean-stack@4.1.0 want: 5.0.0
+374 timing idealTree:node_modules/trash-cli/node_modules/clean-stack Completed in 0ms
+375 timing idealTree:node_modules/trash-cli/node_modules/path-is-absolute Completed in 0ms
+376 timing idealTree:node_modules/trash-cli/node_modules/path-type Completed in 0ms
+377 timing idealTree:node_modules/trash-cli/node_modules/pify Completed in 0ms
+378 timing idealTree:node_modules/trash-cli/node_modules/slash Completed in 0ms
+379 timing idealTree:node_modules/trash-cli/node_modules/trim-newlines Completed in 0ms
+380 timing idealTree:node_modules/trash-cli/node_modules/type-fest Completed in 0ms
+381 timing idealTree:node_modules/trash-cli/node_modules/uuid Completed in 0ms
+382 silly placeDep node_modules/trash-cli spdx-correct@3.1.1 OK for: validate-npm-package-license@3.0.4 want: ^3.0.0
+383 silly placeDep node_modules/trash-cli spdx-expression-parse@3.0.1 OK for: validate-npm-package-license@3.0.4 want: ^3.0.0
+384 silly fetch manifest spdx-license-ids@^3.0.0
+385 silly fetch manifest spdx-exceptions@^2.1.0
+386 http fetch GET 200 https://registry.npmjs.org/spdx-exceptions 43ms (cache miss)
+387 http fetch GET 200 https://registry.npmjs.org/spdx-license-ids 45ms (cache miss)
+388 timing idealTree:node_modules/trash-cli/node_modules/validate-npm-package-license Completed in 46ms
+389 silly placeDep node_modules/trash-cli spdx-license-ids@3.0.11 OK for: spdx-correct@3.1.1 want: ^3.0.0
+390 timing idealTree:node_modules/trash-cli/node_modules/spdx-correct Completed in 0ms
+391 silly placeDep node_modules/trash-cli spdx-exceptions@2.3.0 OK for: spdx-expression-parse@3.0.1 want: ^2.1.0
+392 timing idealTree:node_modules/trash-cli/node_modules/spdx-expression-parse Completed in 1ms
+393 timing idealTree:node_modules/trash-cli/node_modules/spdx-exceptions Completed in 0ms
+394 timing idealTree:node_modules/trash-cli/node_modules/spdx-license-ids Completed in 0ms
+395 timing idealTree:node_modules/trash-cli/node_modules/wrappy Completed in 0ms
+396 silly placeDep node_modules/trash-cli @sindresorhus/df@3.1.1 OK for: xdg-trashdir@3.1.0 want: ^3.1.1
+397 silly placeDep node_modules/trash-cli mount-point@3.0.0 OK for: xdg-trashdir@3.1.0 want: ^3.0.0
+398 silly placeDep node_modules/trash-cli user-home@2.0.0 OK for: xdg-trashdir@3.1.0 want: ^2.0.0
+399 silly placeDep node_modules/trash-cli xdg-basedir@4.0.0 OK for: xdg-trashdir@3.1.0 want: ^4.0.0
+400 silly fetch manifest execa@^2.0.1
+401 silly fetch manifest @sindresorhus/df@^1.0.1
+402 silly fetch manifest pify@^2.3.0
+403 silly fetch manifest pinkie-promise@^2.0.1
+404 silly fetch manifest os-homedir@^1.0.0
+405 http fetch GET 200 https://registry.npmjs.org/pinkie-promise 5ms (cache hit)
+406 http fetch GET 200 https://registry.npmjs.org/execa 7ms (cache hit)
+407 http fetch GET 200 https://registry.npmjs.org/os-homedir 6ms (cache hit)
+408 timing idealTree:node_modules/trash-cli/node_modules/xdg-trashdir Completed in 9ms
+409 silly placeDep node_modules/trash-cli execa@2.1.0 OK for: @sindresorhus/df@3.1.1 want: ^2.0.1
+410 silly fetch manifest cross-spawn@^7.0.0
+411 silly fetch manifest get-stream@^5.0.0
+412 silly fetch manifest is-stream@^2.0.0
+413 silly fetch manifest merge-stream@^2.0.0
+414 silly fetch manifest npm-run-path@^3.0.0
+415 silly fetch manifest onetime@^5.1.0
+416 silly fetch manifest p-finally@^2.0.0
+417 silly fetch manifest signal-exit@^3.0.2
+418 silly fetch manifest strip-final-newline@^2.0.0
+419 http fetch GET 200 https://registry.npmjs.org/npm-run-path 6ms (cache hit)
+420 http fetch GET 200 https://registry.npmjs.org/merge-stream 6ms (cache hit)
+421 http fetch GET 200 https://registry.npmjs.org/get-stream 7ms (cache hit)
+422 http fetch GET 200 https://registry.npmjs.org/cross-spawn 7ms (cache hit)
+423 http fetch GET 200 https://registry.npmjs.org/p-finally 6ms (cache hit)
+424 http fetch GET 200 https://registry.npmjs.org/onetime 6ms (cache hit)
+425 http fetch GET 200 https://registry.npmjs.org/strip-final-newline 7ms (cache hit)
+426 http fetch GET 200 https://registry.npmjs.org/signal-exit 7ms (cache hit)
+427 http fetch GET 200 https://registry.npmjs.org/is-stream 8ms (cache hit)
+428 timing idealTree:node_modules/trash-cli/node_modules/@sindresorhus/df Completed in 9ms
+429 silly placeDep node_modules/trash-cli cross-spawn@7.0.3 OK for: execa@2.1.0 want: ^7.0.0
+430 silly placeDep node_modules/trash-cli get-stream@5.2.0 OK for: execa@2.1.0 want: ^5.0.0
+431 silly placeDep node_modules/trash-cli is-stream@2.0.1 OK for: execa@2.1.0 want: ^2.0.0
+432 silly placeDep node_modules/trash-cli merge-stream@2.0.0 OK for: execa@2.1.0 want: ^2.0.0
+433 silly placeDep node_modules/trash-cli npm-run-path@3.1.0 OK for: execa@2.1.0 want: ^3.0.0
+434 silly placeDep node_modules/trash-cli onetime@5.1.2 OK for: execa@2.1.0 want: ^5.1.0
+435 silly placeDep node_modules/trash-cli p-finally@2.0.1 OK for: execa@2.1.0 want: ^2.0.0
+436 silly placeDep node_modules/trash-cli signal-exit@3.0.6 OK for: execa@2.1.0 want: ^3.0.2
+437 silly placeDep node_modules/trash-cli strip-final-newline@2.0.0 OK for: execa@2.1.0 want: ^2.0.0
+438 silly fetch manifest path-key@^3.1.0
+439 silly fetch manifest shebang-command@^2.0.0
+440 silly fetch manifest which@^2.0.1
+441 silly fetch manifest pump@^3.0.0
+442 silly fetch manifest path-key@^3.0.0
+443 silly fetch manifest mimic-fn@^2.1.0
+444 http fetch GET 200 https://registry.npmjs.org/which 6ms (cache hit)
+445 http fetch GET 200 https://registry.npmjs.org/path-key 8ms (cache hit)
+446 http fetch GET 200 https://registry.npmjs.org/mimic-fn 7ms (cache hit)
+447 http fetch GET 200 https://registry.npmjs.org/pump 7ms (cache hit)
+448 http fetch GET 200 https://registry.npmjs.org/shebang-command 9ms (cache hit)
+449 timing idealTree:node_modules/trash-cli/node_modules/execa Completed in 11ms
+450 silly placeDep node_modules/trash-cli path-key@3.1.1 OK for: cross-spawn@7.0.3 want: ^3.1.0
+451 silly placeDep node_modules/trash-cli shebang-command@2.0.0 OK for: cross-spawn@7.0.3 want: ^2.0.0
+452 silly placeDep node_modules/trash-cli which@2.0.2 OK for: cross-spawn@7.0.3 want: ^2.0.1
+453 silly fetch manifest shebang-regex@^3.0.0
+454 silly fetch manifest isexe@^2.0.0
+455 http fetch GET 200 https://registry.npmjs.org/isexe 2ms (cache hit)
+456 http fetch GET 200 https://registry.npmjs.org/shebang-regex 5ms (cache hit)
+457 timing idealTree:node_modules/trash-cli/node_modules/cross-spawn Completed in 6ms
+458 silly placeDep node_modules/trash-cli pump@3.0.0 OK for: get-stream@5.2.0 want: ^3.0.0
+459 silly fetch manifest end-of-stream@^1.1.0
+460 http fetch GET 200 https://registry.npmjs.org/end-of-stream 2ms (cache hit)
+461 timing idealTree:node_modules/trash-cli/node_modules/get-stream Completed in 3ms
+462 timing idealTree:node_modules/trash-cli/node_modules/is-stream Completed in 0ms
+463 timing idealTree:node_modules/trash-cli/node_modules/merge-stream Completed in 0ms
+464 silly placeDep node_modules/trash-cli/node_modules/mount-point @sindresorhus/df@1.0.1 OK for: mount-point@3.0.0 want: ^1.0.1
+465 silly placeDep node_modules/trash-cli/node_modules/mount-point pify@2.3.0 OK for: mount-point@3.0.0 want: ^2.3.0
+466 silly placeDep node_modules/trash-cli pinkie-promise@2.0.1 OK for: mount-point@3.0.0 want: ^2.0.1
+467 silly fetch manifest pinkie@^2.0.0
+468 http fetch GET 200 https://registry.npmjs.org/pinkie 5ms (cache hit)
+469 timing idealTree:node_modules/trash-cli/node_modules/mount-point Completed in 7ms
+470 timing idealTree:node_modules/trash-cli/node_modules/npm-run-path Completed in 0ms
+471 silly placeDep node_modules/trash-cli mimic-fn@2.1.0 OK for: onetime@5.1.2 want: ^2.1.0
+472 timing idealTree:node_modules/trash-cli/node_modules/onetime Completed in 1ms
+473 timing idealTree:node_modules/trash-cli/node_modules/mimic-fn Completed in 0ms
+474 timing idealTree:node_modules/trash-cli/node_modules/p-finally Completed in 0ms
+475 timing idealTree:node_modules/trash-cli/node_modules/path-key Completed in 0ms
+476 silly placeDep node_modules/trash-cli pinkie@2.0.4 OK for: pinkie-promise@2.0.1 want: ^2.0.0
+477 timing idealTree:node_modules/trash-cli/node_modules/pinkie-promise Completed in 0ms
+478 timing idealTree:node_modules/trash-cli/node_modules/pinkie Completed in 0ms
+479 silly placeDep node_modules/trash-cli end-of-stream@1.4.4 OK for: pump@3.0.0 want: ^1.1.0
+480 timing idealTree:node_modules/trash-cli/node_modules/pump Completed in 0ms
+481 timing idealTree:node_modules/trash-cli/node_modules/end-of-stream Completed in 1ms
+482 silly placeDep node_modules/trash-cli shebang-regex@3.0.0 OK for: shebang-command@2.0.0 want: ^3.0.0
+483 timing idealTree:node_modules/trash-cli/node_modules/shebang-command Completed in 0ms
+484 timing idealTree:node_modules/trash-cli/node_modules/shebang-regex Completed in 0ms
+485 timing idealTree:node_modules/trash-cli/node_modules/signal-exit Completed in 0ms
+486 timing idealTree:node_modules/trash-cli/node_modules/strip-final-newline Completed in 0ms
+487 silly placeDep node_modules/trash-cli os-homedir@1.0.2 OK for: user-home@2.0.0 want: ^1.0.0
+488 timing idealTree:node_modules/trash-cli/node_modules/user-home Completed in 0ms
+489 timing idealTree:node_modules/trash-cli/node_modules/os-homedir Completed in 0ms
+490 silly placeDep node_modules/trash-cli isexe@2.0.0 OK for: which@2.0.2 want: ^2.0.0
+491 timing idealTree:node_modules/trash-cli/node_modules/which Completed in 0ms
+492 timing idealTree:node_modules/trash-cli/node_modules/isexe Completed in 0ms
+493 timing idealTree:node_modules/trash-cli/node_modules/xdg-basedir Completed in 0ms
+494 timing idealTree:node_modules/trash-cli/node_modules/yallist Completed in 0ms
+495 timing idealTree:node_modules/trash-cli/node_modules/yargs-parser Completed in 0ms
+496 timing idealTree:node_modules/trash-cli/node_modules/yocto-queue Completed in 0ms
+497 timing idealTree:node_modules/trash-cli/node_modules/clean-stack/node_modules/escape-string-regexp Completed in 0ms
+498 timing idealTree:node_modules/trash-cli/node_modules/decamelize-keys/node_modules/decamelize Completed in 0ms
+499 timing idealTree:node_modules/trash-cli/node_modules/decamelize-keys/node_modules/map-obj Completed in 0ms
+500 timing idealTree:node_modules/trash-cli/node_modules/mount-point/node_modules/@sindresorhus/df Completed in 0ms
+501 timing idealTree:node_modules/trash-cli/node_modules/mount-point/node_modules/pify Completed in 0ms
+502 timing idealTree:node_modules/trash-cli/node_modules/move-file/node_modules/path-exists Completed in 0ms
+503 timing idealTree:buildDeps Completed in 2376ms
+504 timing idealTree:fixDepFlags Completed in 0ms
+505 timing idealTree Completed in 2381ms
+506 timing reify:loadTrees Completed in 2382ms
+507 timing reify:diffTrees Completed in 1ms
+508 silly reify moves {}
+509 timing reify:retireShallow Completed in 0ms
+510 timing reify:createSparse Completed in 8ms
+511 timing reify:loadBundles Completed in 0ms
+512 silly audit bulk request {
+512 silly audit   'trash-cli': [ '5.0.0' ],
+512 silly audit   meow: [ '10.1.2' ],
+512 silly audit   trash: [ '8.1.0' ],
+512 silly audit   '@types/minimist': [ '1.2.2' ],
+512 silly audit   'camelcase-keys': [ '7.0.1' ],
+512 silly audit   decamelize: [ '5.0.1', '1.2.0' ],
+512 silly audit   'decamelize-keys': [ '1.1.0' ],
+512 silly audit   'hard-rejection': [ '2.1.0' ],
+512 silly audit   'minimist-options': [ '4.1.0' ],
+512 silly audit   'normalize-package-data': [ '3.0.3' ],
+512 silly audit   'read-pkg-up': [ '8.0.0' ],
+512 silly audit   redent: [ '4.0.0' ],
+512 silly audit   'trim-newlines': [ '4.0.2' ],
+512 silly audit   'type-fest': [ '1.4.0' ],
+512 silly audit   'yargs-parser': [ '20.2.9' ],
+512 silly audit   camelcase: [ '6.2.1' ],
+512 silly audit   'map-obj': [ '4.3.0', '1.0.1' ],
+512 silly audit   'quick-lru': [ '5.1.1' ],
+512 silly audit   arrify: [ '1.0.1' ],
+512 silly audit   'is-plain-obj': [ '1.1.0' ],
+512 silly audit   'kind-of': [ '6.0.3' ],
+512 silly audit   'hosted-git-info': [ '4.0.2' ],
+512 silly audit   'is-core-module': [ '2.8.0' ],
+512 silly audit   semver: [ '7.3.5' ],
+512 silly audit   'validate-npm-package-license': [ '3.0.4' ],
+512 silly audit   'lru-cache': [ '6.0.0' ],
+512 silly audit   has: [ '1.0.3' ],
+512 silly audit   'function-bind': [ '1.1.1' ],
+512 silly audit   yallist: [ '4.0.0' ],
+512 silly audit   'find-up': [ '5.0.0' ],
+512 silly audit   'read-pkg': [ '6.0.0' ],
+512 silly audit   'locate-path': [ '6.0.0' ],
+512 silly audit   'path-exists': [ '4.0.0', '5.0.0' ],
+512 silly audit   'p-locate': [ '5.0.0' ],
+512 silly audit   'p-limit': [ '3.1.0' ],
+512 silly audit   'yocto-queue': [ '0.1.0' ],
+512 silly audit   '@types/normalize-package-data': [ '2.4.1' ],
+512 silly audit   'parse-json': [ '5.2.0' ],
+512 silly audit   '@babel/code-frame': [ '7.16.0' ],
+512 silly audit   'error-ex': [ '1.3.2' ],
+512 silly audit   'json-parse-even-better-errors': [ '2.3.1' ],
+512 silly audit   'lines-and-columns': [ '1.2.4' ],
+512 silly audit   '@babel/highlight': [ '7.16.0' ],
+512 silly audit   '@babel/helper-validator-identifier': [ '7.15.7' ],
+512 silly audit   chalk: [ '2.4.2' ],
+512 silly audit   'js-tokens': [ '4.0.0' ],
+512 silly audit   'ansi-styles': [ '3.2.1' ],
+512 silly audit   'escape-string-regexp': [ '1.0.5', '5.0.0' ],
+512 silly audit   'supports-color': [ '5.5.0' ],
+512 silly audit   'color-convert': [ '1.9.3' ],
+512 silly audit   'color-name': [ '1.1.3' ],
+512 silly audit   'is-arrayish': [ '0.2.1' ],
+512 silly audit   'indent-string': [ '5.0.0' ],
+512 silly audit   'strip-indent': [ '4.0.0' ],
+512 silly audit   'min-indent': [ '1.0.1' ],
+512 silly audit   'has-flag': [ '3.0.0' ],
+512 silly audit   '@sindresorhus/chunkify': [ '0.2.0' ],
+512 silly audit   '@stroncium/procfs': [ '1.2.1' ],
+512 silly audit   globby: [ '7.1.1' ],
+512 silly audit   'is-path-inside': [ '4.0.0' ],
+512 silly audit   'move-file': [ '3.0.0' ],
+512 silly audit   'p-map': [ '5.3.0' ],
+512 silly audit   uuid: [ '8.3.2' ],
+512 silly audit   'xdg-trashdir': [ '3.1.0' ],
+512 silly audit   'array-union': [ '1.0.2' ],
+512 silly audit   'dir-glob': [ '2.2.2' ],
+512 silly audit   glob: [ '7.2.0' ],
+512 silly audit   ignore: [ '3.3.10' ],
+512 silly audit   pify: [ '3.0.0', '2.3.0' ],
+512 silly audit   slash: [ '1.0.0' ],
+512 silly audit   'array-uniq': [ '1.0.3' ],
+512 silly audit   'path-type': [ '3.0.0' ],
+512 silly audit   'fs.realpath': [ '1.0.0' ],
+512 silly audit   inflight: [ '1.0.6' ],
+512 silly audit   inherits: [ '2.0.4' ],
+512 silly audit   minimatch: [ '3.0.4' ],
+512 silly audit   once: [ '1.4.0' ],
+512 silly audit   'path-is-absolute': [ '1.0.1' ],
+512 silly audit   wrappy: [ '1.0.2' ],
+512 silly audit   'brace-expansion': [ '1.1.11' ],
+512 silly audit   'balanced-match': [ '1.0.2' ],
+512 silly audit   'concat-map': [ '0.0.1' ],
+512 silly audit   'aggregate-error': [ '4.0.0' ],
+512 silly audit   'clean-stack': [ '4.1.0' ],
+512 silly audit   'spdx-correct': [ '3.1.1' ],
+512 silly audit   'spdx-expression-parse': [ '3.0.1' ],
+512 silly audit   'spdx-license-ids': [ '3.0.11' ],
+512 silly audit   'spdx-exceptions': [ '2.3.0' ],
+512 silly audit   '@sindresorhus/df': [ '3.1.1', '1.0.1' ],
+512 silly audit   'mount-point': [ '3.0.0' ],
+512 silly audit   'user-home': [ '2.0.0' ],
+512 silly audit   'xdg-basedir': [ '4.0.0' ],
+512 silly audit   execa: [ '2.1.0' ],
+512 silly audit   'cross-spawn': [ '7.0.3' ],
+512 silly audit   'get-stream': [ '5.2.0' ],
+512 silly audit   'is-stream': [ '2.0.1' ],
+512 silly audit   'merge-stream': [ '2.0.0' ],
+512 silly audit   'npm-run-path': [ '3.1.0' ],
+512 silly audit   onetime: [ '5.1.2' ],
+512 silly audit   'p-finally': [ '2.0.1' ],
+512 silly audit   'signal-exit': [ '3.0.6' ],
+512 silly audit   'strip-final-newline': [ '2.0.0' ],
+512 silly audit   'path-key': [ '3.1.1' ],
+512 silly audit   'shebang-command': [ '2.0.0' ],
+512 silly audit   which: [ '2.0.2' ],
+512 silly audit   pump: [ '3.0.0' ],
+512 silly audit   'pinkie-promise': [ '2.0.1' ],
+512 silly audit   'mimic-fn': [ '2.1.0' ],
+512 silly audit   pinkie: [ '2.0.4' ],
+512 silly audit   'end-of-stream': [ '1.4.4' ],
+512 silly audit   'shebang-regex': [ '3.0.0' ],
+512 silly audit   'os-homedir': [ '1.0.2' ],
+512 silly audit   isexe: [ '2.0.0' ]
+512 silly audit }
+513 silly tarball no local data for trash-cli@https://registry.npmjs.org/trash-cli/-/trash-cli-5.0.0.tgz. Extracting by manifest.
+514 silly tarball no local data for spdx-license-ids@https://registry.npmjs.org/spdx-license-ids/-/spdx-license-ids-3.0.11.tgz. Extracting by manifest.
+515 silly tarball no local data for spdx-correct@https://registry.npmjs.org/spdx-correct/-/spdx-correct-3.1.1.tgz. Extracting by manifest.
+516 silly tarball no local data for spdx-expression-parse@https://registry.npmjs.org/spdx-expression-parse/-/spdx-expression-parse-3.0.1.tgz. Extracting by manifest.
+517 silly tarball no local data for spdx-exceptions@https://registry.npmjs.org/spdx-exceptions/-/spdx-exceptions-2.3.0.tgz. Extracting by manifest.
+518 silly tarball no local data for has-flag@https://registry.npmjs.org/has-flag/-/has-flag-3.0.0.tgz. Extracting by manifest.
+519 silly tarball no local data for strip-indent@https://registry.npmjs.org/strip-indent/-/strip-indent-4.0.0.tgz. Extracting by manifest.
+520 silly tarball no local data for min-indent@https://registry.npmjs.org/min-indent/-/min-indent-1.0.1.tgz. Extracting by manifest.
+521 silly tarball no local data for color-convert@https://registry.npmjs.org/color-convert/-/color-convert-1.9.3.tgz. Extracting by manifest.
+522 silly tarball no local data for is-arrayish@https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.2.1.tgz. Extracting by manifest.
+523 silly tarball no local data for escape-string-regexp@https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz. Extracting by manifest.
+524 silly tarball no local data for chalk@https://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz. Extracting by manifest.
+525 silly tarball no local data for @babel/helper-validator-identifier@https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.15.7.tgz. Extracting by manifest.
+526 silly tarball no local data for color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz. Extracting by manifest.
+527 silly tarball no local data for lines-and-columns@https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz. Extracting by manifest.
+528 silly tarball no local data for @babel/highlight@https://registry.npmjs.org/@babel/highlight/-/highlight-7.16.0.tgz. Extracting by manifest.
+529 silly tarball no local data for error-ex@https://registry.npmjs.org/error-ex/-/error-ex-1.3.2.tgz. Extracting by manifest.
+530 silly tarball no local data for ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-3.2.1.tgz. Extracting by manifest.
+531 silly tarball no local data for supports-color@https://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz. Extracting by manifest.
+532 silly tarball no local data for @types/normalize-package-data@https://registry.npmjs.org/@types/normalize-package-data/-/normalize-package-data-2.4.1.tgz. Extracting by manifest.
+533 silly tarball no local data for p-limit@https://registry.npmjs.org/p-limit/-/p-limit-3.1.0.tgz. Extracting by manifest.
+534 silly tarball no local data for parse-json@https://registry.npmjs.org/parse-json/-/parse-json-5.2.0.tgz. Extracting by manifest.
+535 silly tarball no local data for json-parse-even-better-errors@https://registry.npmjs.org/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz. Extracting by manifest.
+536 silly tarball no local data for @babel/code-frame@https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.16.0.tgz. Extracting by manifest.
+537 silly tarball no local data for p-locate@https://registry.npmjs.org/p-locate/-/p-locate-5.0.0.tgz. Extracting by manifest.
+538 silly tarball no local data for yocto-queue@https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz. Extracting by manifest.
+539 silly tarball no local data for locate-path@https://registry.npmjs.org/locate-path/-/locate-path-6.0.0.tgz. Extracting by manifest.
+540 silly tarball no local data for find-up@https://registry.npmjs.org/find-up/-/find-up-5.0.0.tgz. Extracting by manifest.
+541 silly tarball no local data for read-pkg@https://registry.npmjs.org/read-pkg/-/read-pkg-6.0.0.tgz. Extracting by manifest.
+542 silly tarball no local data for yallist@https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz. Extracting by manifest.
+543 silly tarball no local data for path-exists@https://registry.npmjs.org/path-exists/-/path-exists-4.0.0.tgz. Extracting by manifest.
+544 silly tarball no local data for lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-6.0.0.tgz. Extracting by manifest.
+545 silly tarball no local data for validate-npm-package-license@https://registry.npmjs.org/validate-npm-package-license/-/validate-npm-package-license-3.0.4.tgz. Extracting by manifest.
+546 silly tarball no local data for js-tokens@https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz. Extracting by manifest.
+547 silly tarball no local data for is-core-module@https://registry.npmjs.org/is-core-module/-/is-core-module-2.8.0.tgz. Extracting by manifest.
+548 silly tarball no local data for hosted-git-info@https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-4.0.2.tgz. Extracting by manifest.
+549 silly tarball no local data for function-bind@https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz. Extracting by manifest.
+550 silly tarball no local data for has@https://registry.npmjs.org/has/-/has-1.0.3.tgz. Extracting by manifest.
+551 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-7.3.5.tgz. Extracting by manifest.
+552 silly tarball no local data for is-plain-obj@https://registry.npmjs.org/is-plain-obj/-/is-plain-obj-1.1.0.tgz. Extracting by manifest.
+553 silly tarball no local data for kind-of@https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz. Extracting by manifest.
+554 silly tarball no local data for arrify@https://registry.npmjs.org/arrify/-/arrify-1.0.1.tgz. Extracting by manifest.
+555 silly tarball no local data for camelcase@https://registry.npmjs.org/camelcase/-/camelcase-6.2.1.tgz. Extracting by manifest.
+556 silly tarball no local data for yargs-parser@https://registry.npmjs.org/yargs-parser/-/yargs-parser-20.2.9.tgz. Extracting by manifest.
+557 silly tarball no local data for quick-lru@https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz. Extracting by manifest.
+558 silly tarball no local data for map-obj@https://registry.npmjs.org/map-obj/-/map-obj-4.3.0.tgz. Extracting by manifest.
+559 silly tarball no local data for redent@https://registry.npmjs.org/redent/-/redent-4.0.0.tgz. Extracting by manifest.
+560 silly tarball no local data for read-pkg-up@https://registry.npmjs.org/read-pkg-up/-/read-pkg-up-8.0.0.tgz. Extracting by manifest.
+561 silly tarball no local data for hard-rejection@https://registry.npmjs.org/hard-rejection/-/hard-rejection-2.1.0.tgz. Extracting by manifest.
+562 silly tarball no local data for trim-newlines@https://registry.npmjs.org/trim-newlines/-/trim-newlines-4.0.2.tgz. Extracting by manifest.
+563 silly tarball no local data for minimist-options@https://registry.npmjs.org/minimist-options/-/minimist-options-4.1.0.tgz. Extracting by manifest.
+564 silly tarball no local data for normalize-package-data@https://registry.npmjs.org/normalize-package-data/-/normalize-package-data-3.0.3.tgz. Extracting by manifest.
+565 silly tarball no local data for type-fest@https://registry.npmjs.org/type-fest/-/type-fest-1.4.0.tgz. Extracting by manifest.
+566 silly tarball no local data for decamelize-keys@https://registry.npmjs.org/decamelize-keys/-/decamelize-keys-1.1.0.tgz. Extracting by manifest.
+567 silly tarball no local data for @types/minimist@https://registry.npmjs.org/@types/minimist/-/minimist-1.2.2.tgz. Extracting by manifest.
+568 silly tarball no local data for meow@https://registry.npmjs.org/meow/-/meow-10.1.2.tgz. Extracting by manifest.
+569 silly tarball no local data for camelcase-keys@https://registry.npmjs.org/camelcase-keys/-/camelcase-keys-7.0.1.tgz. Extracting by manifest.
+570 silly tarball no local data for decamelize@https://registry.npmjs.org/decamelize/-/decamelize-5.0.1.tgz. Extracting by manifest.
+571 silly tarball no local data for decamelize@https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz. Extracting by manifest.
+572 silly tarball no local data for map-obj@https://registry.npmjs.org/map-obj/-/map-obj-1.0.1.tgz. Extracting by manifest.
+573 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 182ms
+574 timing auditReport:getReport Completed in 184ms
+575 silly audit report {}
+576 timing auditReport:init Completed in 0ms
+577 timing reify:audit Completed in 184ms
+578 timing reifyNode:node_modules/trash-cli/node_modules/slash Completed in 197ms
+579 timing reifyNode:node_modules/trash-cli/node_modules/os-homedir Completed in 199ms
+580 timing reifyNode:node_modules/trash-cli/node_modules/end-of-stream Completed in 200ms
+581 timing reifyNode:node_modules/trash-cli/node_modules/p-finally Completed in 200ms
+582 timing reifyNode:node_modules/trash-cli/node_modules/shebang-command Completed in 200ms
+583 timing reifyNode:node_modules/trash-cli/node_modules/merge-stream Completed in 200ms
+584 timing reifyNode:node_modules/trash-cli/node_modules/pinkie Completed in 200ms
+585 timing reifyNode:node_modules/trash-cli/node_modules/mount-point Completed in 200ms
+586 timing reifyNode:node_modules/trash-cli/node_modules/strip-final-newline Completed in 200ms
+587 timing reifyNode:node_modules/trash-cli/node_modules/mount-point/node_modules/@sindresorhus/df Completed in 200ms
+588 timing reifyNode:node_modules/trash-cli/node_modules/pinkie-promise Completed in 201ms
+589 timing reifyNode:node_modules/trash-cli/node_modules/user-home Completed in 201ms
+590 timing reifyNode:node_modules/trash-cli/node_modules/wrappy Completed in 200ms
+591 timing reifyNode:node_modules/trash-cli/node_modules/mount-point/node_modules/pify Completed in 201ms
+592 timing reifyNode:node_modules/trash-cli/node_modules/inflight Completed in 200ms
+593 timing reifyNode:node_modules/trash-cli/node_modules/path-is-absolute Completed in 200ms
+594 timing reifyNode:node_modules/trash-cli/node_modules/once Completed in 200ms
+595 timing reifyNode:node_modules/trash-cli/node_modules/dir-glob Completed in 200ms
+596 timing reifyNode:node_modules/trash-cli/node_modules/array-union Completed in 200ms
+597 timing reifyNode:node_modules/trash-cli/node_modules/array-uniq Completed in 200ms
+598 timing reifyNode:node_modules/trash-cli/node_modules/brace-expansion Completed in 200ms
+599 timing reifyNode:node_modules/trash-cli/node_modules/path-type Completed in 200ms
+600 timing reifyNode:node_modules/trash-cli/node_modules/pify Completed in 200ms
+601 timing reifyNode:node_modules/trash-cli/node_modules/mimic-fn Completed in 201ms
+602 timing reifyNode:node_modules/trash-cli/node_modules/shebang-regex Completed in 201ms
+603 timing reifyNode:node_modules/trash-cli/node_modules/signal-exit Completed in 202ms
+604 timing reifyNode:node_modules/trash-cli/node_modules/path-key Completed in 202ms
+605 timing reifyNode:node_modules/trash-cli/node_modules/npm-run-path Completed in 202ms
+606 timing reifyNode:node_modules/trash-cli/node_modules/onetime Completed in 202ms
+607 timing reifyNode:node_modules/trash-cli/node_modules/xdg-basedir Completed in 202ms
+608 timing reifyNode:node_modules/trash-cli/node_modules/@sindresorhus/df Completed in 202ms
+609 timing reifyNode:node_modules/trash-cli/node_modules/is-stream Completed in 202ms
+610 timing reifyNode:node_modules/trash-cli/node_modules/clean-stack Completed in 202ms
+611 timing reifyNode:node_modules/trash-cli/node_modules/clean-stack/node_modules/escape-string-regexp Completed in 202ms
+612 timing reifyNode:node_modules/trash-cli/node_modules/aggregate-error Completed in 202ms
+613 timing reifyNode:node_modules/trash-cli/node_modules/inherits Completed in 201ms
+614 timing reifyNode:node_modules/trash-cli/node_modules/move-file/node_modules/path-exists Completed in 201ms
+615 timing reifyNode:node_modules/trash-cli/node_modules/is-path-inside Completed in 201ms
+616 timing reifyNode:node_modules/trash-cli/node_modules/xdg-trashdir Completed in 201ms
+617 timing reifyNode:node_modules/trash-cli/node_modules/@sindresorhus/chunkify Completed in 201ms
+618 timing reifyNode:node_modules/trash-cli/node_modules/globby Completed in 201ms
+619 timing reifyNode:node_modules/trash-cli/node_modules/indent-string Completed in 202ms
+620 timing reifyNode:node_modules/trash-cli/node_modules/move-file Completed in 202ms
+621 timing reifyNode:node_modules/trash-cli/node_modules/balanced-match Completed in 203ms
+622 timing reifyNode:node_modules/trash-cli/node_modules/minimatch Completed in 203ms
+623 timing reifyNode:node_modules/trash-cli/node_modules/ignore Completed in 203ms
+624 timing reifyNode:node_modules/trash-cli/node_modules/fs.realpath Completed in 203ms
+625 timing reifyNode:node_modules/trash-cli/node_modules/p-map Completed in 204ms
+626 timing reifyNode:node_modules/trash-cli/node_modules/pump Completed in 205ms
+627 timing reifyNode:node_modules/trash-cli/node_modules/which Completed in 205ms
+628 timing reifyNode:node_modules/trash-cli/node_modules/get-stream Completed in 205ms
+629 timing reifyNode:node_modules/trash-cli/node_modules/concat-map Completed in 207ms
+630 timing reifyNode:node_modules/trash-cli/node_modules/isexe Completed in 208ms
+631 timing reifyNode:node_modules/trash-cli/node_modules/glob Completed in 209ms
+632 timing reifyNode:node_modules/trash-cli/node_modules/cross-spawn Completed in 210ms
+633 timing reifyNode:node_modules/trash-cli/node_modules/execa Completed in 212ms
+634 http fetch GET 200 https://registry.npmjs.org/spdx-license-ids/-/spdx-license-ids-3.0.11.tgz 195ms (cache miss)
+635 timing reifyNode:node_modules/trash-cli/node_modules/spdx-license-ids Completed in 214ms
+636 http fetch GET 200 https://registry.npmjs.org/trash-cli/-/trash-cli-5.0.0.tgz 199ms (cache miss)
+637 timing reifyNode:node_modules/trash-cli Completed in 216ms
+638 http fetch GET 200 https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.2.1.tgz 186ms (cache miss)
+639 timing reifyNode:node_modules/trash-cli/node_modules/is-arrayish Completed in 218ms
+640 http fetch GET 200 https://registry.npmjs.org/spdx-exceptions/-/spdx-exceptions-2.3.0.tgz 199ms (cache miss)
+641 timing reifyNode:node_modules/trash-cli/node_modules/spdx-exceptions Completed in 221ms
+642 http fetch GET 200 https://registry.npmjs.org/has-flag/-/has-flag-3.0.0.tgz 198ms (cache miss)
+643 timing reifyNode:node_modules/trash-cli/node_modules/has-flag Completed in 224ms
+644 http fetch GET 200 https://registry.npmjs.org/min-indent/-/min-indent-1.0.1.tgz 199ms (cache miss)
+645 timing reifyNode:node_modules/trash-cli/node_modules/min-indent Completed in 226ms
+646 timing reifyNode:node_modules/trash-cli/node_modules/trash Completed in 227ms
+647 http fetch GET 200 https://registry.npmjs.org/spdx-correct/-/spdx-correct-3.1.1.tgz 210ms (cache miss)
+648 timing reifyNode:node_modules/trash-cli/node_modules/spdx-correct Completed in 230ms
+649 http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz 197ms (cache miss)
+650 timing reifyNode:node_modules/trash-cli/node_modules/chalk Completed in 232ms
+651 http fetch GET 200 https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz 195ms (cache miss)
+652 timing reifyNode:node_modules/trash-cli/node_modules/lines-and-columns Completed in 235ms
+653 http fetch GET 200 https://registry.npmjs.org/spdx-expression-parse/-/spdx-expression-parse-3.0.1.tgz 218ms (cache miss)
+654 timing reifyNode:node_modules/trash-cli/node_modules/spdx-expression-parse Completed in 239ms
+655 http fetch GET 200 https://registry.npmjs.org/strip-indent/-/strip-indent-4.0.0.tgz 215ms (cache miss)
+656 timing reifyNode:node_modules/trash-cli/node_modules/strip-indent Completed in 241ms
+657 http fetch GET 200 https://registry.npmjs.org/color-convert/-/color-convert-1.9.3.tgz 214ms (cache miss)
+658 timing reifyNode:node_modules/trash-cli/node_modules/color-convert Completed in 243ms
+659 http fetch GET 200 https://registry.npmjs.org/@babel/highlight/-/highlight-7.16.0.tgz 212ms (cache miss)
+660 timing reifyNode:node_modules/trash-cli/node_modules/@babel/highlight Completed in 253ms
+661 http fetch GET 200 https://registry.npmjs.org/error-ex/-/error-ex-1.3.2.tgz 214ms (cache miss)
+662 timing reifyNode:node_modules/trash-cli/node_modules/error-ex Completed in 256ms
+663 http fetch GET 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-3.2.1.tgz 214ms (cache miss)
+664 timing reifyNode:node_modules/trash-cli/node_modules/ansi-styles Completed in 258ms
+665 http fetch GET 200 https://registry.npmjs.org/parse-json/-/parse-json-5.2.0.tgz 210ms (cache miss)
+666 timing reifyNode:node_modules/trash-cli/node_modules/parse-json Completed in 260ms
+667 timing reifyNode:node_modules/trash-cli/node_modules/@stroncium/procfs Completed in 261ms
+668 http fetch GET 200 https://registry.npmjs.org/p-limit/-/p-limit-3.1.0.tgz 213ms (cache miss)
+669 timing reifyNode:node_modules/trash-cli/node_modules/p-limit Completed in 262ms
+670 http fetch GET 200 https://registry.npmjs.org/p-locate/-/p-locate-5.0.0.tgz 205ms (cache miss)
+671 timing reifyNode:node_modules/trash-cli/node_modules/p-locate Completed in 265ms
+672 http fetch GET 200 https://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz 220ms (cache miss)
+673 timing reifyNode:node_modules/trash-cli/node_modules/supports-color Completed in 268ms
+674 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz 236ms (cache miss)
+675 timing reifyNode:node_modules/trash-cli/node_modules/escape-string-regexp Completed in 270ms
+676 http fetch GET 200 https://registry.npmjs.org/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz 220ms (cache miss)
+677 timing reifyNode:node_modules/trash-cli/node_modules/json-parse-even-better-errors Completed in 271ms
+678 http fetch GET 200 https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz 215ms (cache miss)
+679 timing reifyNode:node_modules/trash-cli/node_modules/yocto-queue Completed in 275ms
+680 http fetch GET 200 https://registry.npmjs.org/locate-path/-/locate-path-6.0.0.tgz 216ms (cache miss)
+681 timing reifyNode:node_modules/trash-cli/node_modules/locate-path Completed in 277ms
+682 http fetch GET 200 https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.16.0.tgz 221ms (cache miss)
+683 timing reifyNode:node_modules/trash-cli/node_modules/@babel/code-frame Completed in 279ms
+684 http fetch GET 200 https://registry.npmjs.org/@types/normalize-package-data/-/normalize-package-data-2.4.1.tgz 237ms (cache miss)
+685 timing reifyNode:node_modules/trash-cli/node_modules/@types/normalize-package-data Completed in 285ms
+686 http fetch GET 200 https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz 252ms (cache miss)
+687 timing reifyNode:node_modules/trash-cli/node_modules/color-name Completed in 291ms
+688 http fetch GET 200 https://registry.npmjs.org/find-up/-/find-up-5.0.0.tgz 236ms (cache miss)
+689 timing reifyNode:node_modules/trash-cli/node_modules/find-up Completed in 300ms
+690 http fetch GET 200 https://registry.npmjs.org/read-pkg/-/read-pkg-6.0.0.tgz 238ms (cache miss)
+691 timing reifyNode:node_modules/trash-cli/node_modules/read-pkg Completed in 303ms
+692 http fetch GET 200 https://registry.npmjs.org/lru-cache/-/lru-cache-6.0.0.tgz 240ms (cache miss)
+693 timing reifyNode:node_modules/trash-cli/node_modules/lru-cache Completed in 308ms
+694 http fetch GET 200 https://registry.npmjs.org/path-exists/-/path-exists-4.0.0.tgz 246ms (cache miss)
+695 timing reifyNode:node_modules/trash-cli/node_modules/path-exists Completed in 314ms
+696 http fetch GET 200 https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.15.7.tgz 280ms (cache miss)
+697 timing reifyNode:node_modules/trash-cli/node_modules/@babel/helper-validator-identifier Completed in 317ms
+698 http fetch GET 200 https://registry.npmjs.org/arrify/-/arrify-1.0.1.tgz 214ms (cache miss)
+699 timing reifyNode:node_modules/trash-cli/node_modules/arrify Completed in 318ms
+700 timing reifyNode:node_modules/trash-cli/node_modules/uuid Completed in 324ms
+701 http fetch GET 200 https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz 247ms (cache miss)
+702 timing reifyNode:node_modules/trash-cli/node_modules/js-tokens Completed in 328ms
+703 http fetch GET 200 https://registry.npmjs.org/has/-/has-1.0.3.tgz 237ms (cache miss)
+704 timing reifyNode:node_modules/trash-cli/node_modules/has Completed in 329ms
+705 http fetch GET 200 https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz 265ms (cache miss)
+706 timing reifyNode:node_modules/trash-cli/node_modules/yallist Completed in 330ms
+707 http fetch GET 200 https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz 237ms (cache miss)
+708 timing reifyNode:node_modules/trash-cli/node_modules/kind-of Completed in 335ms
+709 http fetch GET 200 https://registry.npmjs.org/is-plain-obj/-/is-plain-obj-1.1.0.tgz 241ms (cache miss)
+710 timing reifyNode:node_modules/trash-cli/node_modules/is-plain-obj Completed in 337ms
+711 http fetch GET 200 https://registry.npmjs.org/validate-npm-package-license/-/validate-npm-package-license-3.0.4.tgz 264ms (cache miss)
+712 timing reifyNode:node_modules/trash-cli/node_modules/validate-npm-package-license Completed in 339ms
+713 http fetch GET 200 https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz 250ms (cache miss)
+714 timing reifyNode:node_modules/trash-cli/node_modules/function-bind Completed in 341ms
+715 http fetch GET 200 https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-4.0.2.tgz 260ms (cache miss)
+716 timing reifyNode:node_modules/trash-cli/node_modules/hosted-git-info Completed in 347ms
+717 http fetch GET 200 https://registry.npmjs.org/is-core-module/-/is-core-module-2.8.0.tgz 264ms (cache miss)
+718 timing reifyNode:node_modules/trash-cli/node_modules/is-core-module Completed in 349ms
+719 http fetch GET 200 https://registry.npmjs.org/camelcase/-/camelcase-6.2.1.tgz 244ms (cache miss)
+720 timing reifyNode:node_modules/trash-cli/node_modules/camelcase Completed in 351ms
+721 http fetch GET 200 https://registry.npmjs.org/read-pkg-up/-/read-pkg-up-8.0.0.tgz 240ms (cache miss)
+722 timing reifyNode:node_modules/trash-cli/node_modules/read-pkg-up Completed in 358ms
+723 http fetch GET 200 https://registry.npmjs.org/redent/-/redent-4.0.0.tgz 244ms (cache miss)
+724 timing reifyNode:node_modules/trash-cli/node_modules/redent Completed in 359ms
+725 http fetch GET 200 https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz 252ms (cache miss)
+726 timing reifyNode:node_modules/trash-cli/node_modules/quick-lru Completed in 362ms
+727 http fetch GET 200 https://registry.npmjs.org/map-obj/-/map-obj-4.3.0.tgz 251ms (cache miss)
+728 timing reifyNode:node_modules/trash-cli/node_modules/map-obj Completed in 364ms
+729 http fetch GET 200 https://registry.npmjs.org/minimist-options/-/minimist-options-4.1.0.tgz 239ms (cache miss)
+730 timing reifyNode:node_modules/trash-cli/node_modules/minimist-options Completed in 367ms
+731 http fetch GET 200 https://registry.npmjs.org/hard-rejection/-/hard-rejection-2.1.0.tgz 250ms (cache miss)
+732 timing reifyNode:node_modules/trash-cli/node_modules/hard-rejection Completed in 369ms
+733 http fetch GET 200 https://registry.npmjs.org/decamelize-keys/-/decamelize-keys-1.1.0.tgz 238ms (cache miss)
+734 timing reifyNode:node_modules/trash-cli/node_modules/decamelize-keys Completed in 371ms
+735 http fetch GET 200 https://registry.npmjs.org/decamelize/-/decamelize-5.0.1.tgz 235ms (cache miss)
+736 timing reifyNode:node_modules/trash-cli/node_modules/decamelize Completed in 378ms
+737 http fetch GET 200 https://registry.npmjs.org/trim-newlines/-/trim-newlines-4.0.2.tgz 258ms (cache miss)
+738 timing reifyNode:node_modules/trash-cli/node_modules/trim-newlines Completed in 379ms
+739 http fetch GET 200 https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz 237ms (cache miss)
+740 timing reifyNode:node_modules/trash-cli/node_modules/decamelize-keys/node_modules/decamelize Completed in 381ms
+741 http fetch GET 200 https://registry.npmjs.org/@types/minimist/-/minimist-1.2.2.tgz 247ms (cache miss)
+742 timing reifyNode:node_modules/trash-cli/node_modules/@types/minimist Completed in 382ms
+743 http fetch GET 200 https://registry.npmjs.org/normalize-package-data/-/normalize-package-data-3.0.3.tgz 254ms (cache miss)
+744 timing reifyNode:node_modules/trash-cli/node_modules/normalize-package-data Completed in 384ms
+745 http fetch GET 200 https://registry.npmjs.org/map-obj/-/map-obj-1.0.1.tgz 240ms (cache miss)
+746 timing reifyNode:node_modules/trash-cli/node_modules/decamelize-keys/node_modules/map-obj Completed in 385ms
+747 http fetch GET 200 https://registry.npmjs.org/camelcase-keys/-/camelcase-keys-7.0.1.tgz 246ms (cache miss)
+748 timing reifyNode:node_modules/trash-cli/node_modules/camelcase-keys Completed in 388ms
+749 http fetch GET 200 https://registry.npmjs.org/meow/-/meow-10.1.2.tgz 250ms (cache miss)
+750 timing reifyNode:node_modules/trash-cli/node_modules/meow Completed in 390ms
+751 http fetch GET 200 https://registry.npmjs.org/yargs-parser/-/yargs-parser-20.2.9.tgz 289ms (cache miss)
+752 timing reifyNode:node_modules/trash-cli/node_modules/yargs-parser Completed in 397ms
+753 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-7.3.5.tgz 307ms (cache miss)
+754 timing reifyNode:node_modules/trash-cli/node_modules/semver Completed in 401ms
+755 http fetch GET 200 https://registry.npmjs.org/type-fest/-/type-fest-1.4.0.tgz 274ms (cache miss)
+756 timing reifyNode:node_modules/trash-cli/node_modules/type-fest Completed in 405ms
+757 timing reify:unpack Completed in 407ms
+758 timing reify:unretire Completed in 0ms
+759 timing build:queue Completed in 2ms
+760 timing build:link:node_modules/trash-cli/node_modules/uuid Completed in 1ms
+761 timing build:link:node_modules/trash-cli/node_modules/semver Completed in 1ms
+762 timing build:link:node_modules/trash-cli/node_modules/which Completed in 1ms
+763 timing build:link:node_modules/trash-cli Completed in 1ms
+764 timing build:link Completed in 1ms
+765 timing build:deps Completed in 3ms
+766 timing build Completed in 3ms
+767 timing reify:build Completed in 3ms
+768 timing reify:trash Completed in 0ms
+769 timing reify Completed in 2815ms
+770 silly ADD node_modules/trash-cli
+771 silly ADD node_modules/trash-cli/node_modules/isexe
+772 silly ADD node_modules/trash-cli/node_modules/os-homedir
+773 silly ADD node_modules/trash-cli/node_modules/shebang-regex
+774 silly ADD node_modules/trash-cli/node_modules/end-of-stream
+775 silly ADD node_modules/trash-cli/node_modules/pinkie
+776 silly ADD node_modules/trash-cli/node_modules/mimic-fn
+777 silly ADD node_modules/trash-cli/node_modules/pinkie-promise
+778 silly ADD node_modules/trash-cli/node_modules/pump
+779 silly ADD node_modules/trash-cli/node_modules/which
+780 silly ADD node_modules/trash-cli/node_modules/shebang-command
+781 silly ADD node_modules/trash-cli/node_modules/path-key
+782 silly ADD node_modules/trash-cli/node_modules/strip-final-newline
+783 silly ADD node_modules/trash-cli/node_modules/signal-exit
+784 silly ADD node_modules/trash-cli/node_modules/p-finally
+785 silly ADD node_modules/trash-cli/node_modules/onetime
+786 silly ADD node_modules/trash-cli/node_modules/npm-run-path
+787 silly ADD node_modules/trash-cli/node_modules/merge-stream
+788 silly ADD node_modules/trash-cli/node_modules/is-stream
+789 silly ADD node_modules/trash-cli/node_modules/get-stream
+790 silly ADD node_modules/trash-cli/node_modules/cross-spawn
+791 silly ADD node_modules/trash-cli/node_modules/execa
+792 silly ADD node_modules/trash-cli/node_modules/xdg-basedir
+793 silly ADD node_modules/trash-cli/node_modules/user-home
+794 silly ADD node_modules/trash-cli/node_modules/mount-point
+795 silly ADD node_modules/trash-cli/node_modules/mount-point/node_modules/pify
+796 silly ADD node_modules/trash-cli/node_modules/mount-point/node_modules/@sindresorhus/df
+797 silly ADD node_modules/trash-cli/node_modules/@sindresorhus/df
+798 silly ADD node_modules/trash-cli/node_modules/spdx-exceptions
+799 silly ADD node_modules/trash-cli/node_modules/spdx-license-ids
+800 silly ADD node_modules/trash-cli/node_modules/spdx-expression-parse
+801 silly ADD node_modules/trash-cli/node_modules/spdx-correct
+802 silly ADD node_modules/trash-cli/node_modules/clean-stack
+803 silly ADD node_modules/trash-cli/node_modules/clean-stack/node_modules/escape-string-regexp
+804 silly ADD node_modules/trash-cli/node_modules/aggregate-error
+805 silly ADD node_modules/trash-cli/node_modules/concat-map
+806 silly ADD node_modules/trash-cli/node_modules/balanced-match
+807 silly ADD node_modules/trash-cli/node_modules/brace-expansion
+808 silly ADD node_modules/trash-cli/node_modules/wrappy
+809 silly ADD node_modules/trash-cli/node_modules/path-is-absolute
+810 silly ADD node_modules/trash-cli/node_modules/once
+811 silly ADD node_modules/trash-cli/node_modules/minimatch
+812 silly ADD node_modules/trash-cli/node_modules/inherits
+813 silly ADD node_modules/trash-cli/node_modules/inflight
+814 silly ADD node_modules/trash-cli/node_modules/fs.realpath
+815 silly ADD node_modules/trash-cli/node_modules/path-type
+816 silly ADD node_modules/trash-cli/node_modules/array-uniq
+817 silly ADD node_modules/trash-cli/node_modules/slash
+818 silly ADD node_modules/trash-cli/node_modules/pify
+819 silly ADD node_modules/trash-cli/node_modules/ignore
+820 silly ADD node_modules/trash-cli/node_modules/glob
+821 silly ADD node_modules/trash-cli/node_modules/dir-glob
+822 silly ADD node_modules/trash-cli/node_modules/array-union
+823 silly ADD node_modules/trash-cli/node_modules/xdg-trashdir
+824 silly ADD node_modules/trash-cli/node_modules/uuid
+825 silly ADD node_modules/trash-cli/node_modules/p-map
+826 silly ADD node_modules/trash-cli/node_modules/move-file
+827 silly ADD node_modules/trash-cli/node_modules/move-file/node_modules/path-exists
+828 silly ADD node_modules/trash-cli/node_modules/is-path-inside
+829 silly ADD node_modules/trash-cli/node_modules/globby
+830 silly ADD node_modules/trash-cli/node_modules/@stroncium/procfs
+831 silly ADD node_modules/trash-cli/node_modules/@sindresorhus/chunkify
+832 silly ADD node_modules/trash-cli/node_modules/has-flag
+833 silly ADD node_modules/trash-cli/node_modules/min-indent
+834 silly ADD node_modules/trash-cli/node_modules/strip-indent
+835 silly ADD node_modules/trash-cli/node_modules/indent-string
+836 silly ADD node_modules/trash-cli/node_modules/is-arrayish
+837 silly ADD node_modules/trash-cli/node_modules/color-name
+838 silly ADD node_modules/trash-cli/node_modules/color-convert
+839 silly ADD node_modules/trash-cli/node_modules/supports-color
+840 silly ADD node_modules/trash-cli/node_modules/escape-string-regexp
+841 silly ADD node_modules/trash-cli/node_modules/ansi-styles
+842 silly ADD node_modules/trash-cli/node_modules/js-tokens
+843 silly ADD node_modules/trash-cli/node_modules/chalk
+844 silly ADD node_modules/trash-cli/node_modules/@babel/helper-validator-identifier
+845 silly ADD node_modules/trash-cli/node_modules/@babel/highlight
+846 silly ADD node_modules/trash-cli/node_modules/lines-and-columns
+847 silly ADD node_modules/trash-cli/node_modules/json-parse-even-better-errors
+848 silly ADD node_modules/trash-cli/node_modules/error-ex
+849 silly ADD node_modules/trash-cli/node_modules/@babel/code-frame
+850 silly ADD node_modules/trash-cli/node_modules/parse-json
+851 silly ADD node_modules/trash-cli/node_modules/@types/normalize-package-data
+852 silly ADD node_modules/trash-cli/node_modules/yocto-queue
+853 silly ADD node_modules/trash-cli/node_modules/p-limit
+854 silly ADD node_modules/trash-cli/node_modules/p-locate
+855 silly ADD node_modules/trash-cli/node_modules/path-exists
+856 silly ADD node_modules/trash-cli/node_modules/locate-path
+857 silly ADD node_modules/trash-cli/node_modules/read-pkg
+858 silly ADD node_modules/trash-cli/node_modules/find-up
+859 silly ADD node_modules/trash-cli/node_modules/yallist
+860 silly ADD node_modules/trash-cli/node_modules/function-bind
+861 silly ADD node_modules/trash-cli/node_modules/has
+862 silly ADD node_modules/trash-cli/node_modules/lru-cache
+863 silly ADD node_modules/trash-cli/node_modules/validate-npm-package-license
+864 silly ADD node_modules/trash-cli/node_modules/semver
+865 silly ADD node_modules/trash-cli/node_modules/is-core-module
+866 silly ADD node_modules/trash-cli/node_modules/hosted-git-info
+867 silly ADD node_modules/trash-cli/node_modules/kind-of
+868 silly ADD node_modules/trash-cli/node_modules/is-plain-obj
+869 silly ADD node_modules/trash-cli/node_modules/arrify
+870 silly ADD node_modules/trash-cli/node_modules/quick-lru
+871 silly ADD node_modules/trash-cli/node_modules/map-obj
+872 silly ADD node_modules/trash-cli/node_modules/camelcase
+873 silly ADD node_modules/trash-cli/node_modules/yargs-parser
+874 silly ADD node_modules/trash-cli/node_modules/type-fest
+875 silly ADD node_modules/trash-cli/node_modules/trim-newlines
+876 silly ADD node_modules/trash-cli/node_modules/redent
+877 silly ADD node_modules/trash-cli/node_modules/read-pkg-up
+878 silly ADD node_modules/trash-cli/node_modules/normalize-package-data
+879 silly ADD node_modules/trash-cli/node_modules/minimist-options
+880 silly ADD node_modules/trash-cli/node_modules/hard-rejection
+881 silly ADD node_modules/trash-cli/node_modules/decamelize-keys
+882 silly ADD node_modules/trash-cli/node_modules/decamelize-keys/node_modules/map-obj
+883 silly ADD node_modules/trash-cli/node_modules/decamelize-keys/node_modules/decamelize
+884 silly ADD node_modules/trash-cli/node_modules/decamelize
+885 silly ADD node_modules/trash-cli/node_modules/camelcase-keys
+886 silly ADD node_modules/trash-cli/node_modules/@types/minimist
+887 silly ADD node_modules/trash-cli/node_modules/trash
+888 silly ADD node_modules/trash-cli/node_modules/meow
+889 timing command:install Completed in 2819ms
+890 verbose exit 0
+891 timing npm Completed in 3000ms
+892 info ok
