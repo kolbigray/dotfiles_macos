@@ -9,5 +9,5 @@ To keep everything fresh, my "HQ" workstation is an M1 Mac Mini that hosts the M
 
 I've only scratched the surface with dotfiles so I'm looking into some other cool things like a custom SSH config, using a tool like GNU Snow or Ansible for dotfile management, and making some configurations to my dotfiles so that my setup is cool like the other ones shared on this site! 
 
-I also took this fantastic course on dotfiles on udemy... [Dotfile Course](https://dotfiles.eieio.xyz). 
+I also took this fantastic course on dotfiles on Udemy... [Dotfile Course](https://dotfiles.eieio.xyz). 
 
